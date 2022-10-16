@@ -24,7 +24,7 @@ else if (n == 0)
 	/*if the number is 0: is zero*/
 	printf("%d is zero\n", n);
 }
-else	
+else
 {
 	/*if the number is less than 0: is negative*/
 	printf("%d is negative\n", n);
