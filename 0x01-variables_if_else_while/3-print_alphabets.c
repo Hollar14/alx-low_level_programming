@@ -1,21 +1,23 @@
 #include <stdio.h>
 
-/*
-* main - Entry
-* Return: Always 0
+/**
+* main - program that prints all single digit numbers of base 10
+* starting from 0
+*
+* return: 0
 */
+
 int main(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	/*
-	* for every i that's less than 26 increment a
-	*/
-	int i;
+	char sd;
 
-	for (i = 0; i < 26; i++)
-	{
-		putchar(alpha[i]);
-	}
+	for (ch = 'a'; sd <= 'z'; sd++)
+	putchar (sd);
+
+	for (ch = 'A'; sd <= 'Z'; sd++)
+	putchar (sd);
+
 	putchar('\n');
+
 	return (0);
 }
