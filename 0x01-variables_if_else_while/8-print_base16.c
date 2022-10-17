@@ -8,6 +8,7 @@
 int main(void)
 {
 	int num;
+
 	char lc;
 
 	for (num = 0; num < 10; num++)
