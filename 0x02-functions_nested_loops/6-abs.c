@@ -1,15 +1,16 @@
 #include "main.h"
 
 /**
-* _abs - print the asolute value
-* @t: The interger to be checked
-* Return: absolute value
+* _abs - print the asolute value of an int
+* @n: The interger to be checked
+*
+* Return: the abs of the int
 */
 
-int abs(int t)
+int abs(int n)
 {
-	if (t >= 0)
-		return (t);
+	if (n >= 0)
+		return (n);
 	else
-		return (-t);
+		return (-n);
 }
