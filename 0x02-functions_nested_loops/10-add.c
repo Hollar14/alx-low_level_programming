@@ -6,9 +6,7 @@
 *
 * Return: the addition of both num
 */
-int add(int a, int b, int c)
+int add(int a, int b)
 {
 	return (a + b);
-
-	return (b + c);
 }
