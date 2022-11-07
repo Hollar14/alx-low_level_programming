@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -50,4 +49,4 @@ char *argstostr(int ac, char **av)
 	aout[ia] = '\0';
 
 	return (aout);
-OAOAOA}
+}
