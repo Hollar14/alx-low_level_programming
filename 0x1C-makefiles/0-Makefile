@@ -1,5 +1,10 @@
-# 0-Makefile
+#Create your first Makefile.
 
-# Rule all: builds the school executable file
-all:
+# Requirements:
+
+#    name of the executable: school
+#    rules: all
+#       The all rule builds your executable
+#    variables: none
+
 	gcc main.c school.c -o school
